@@ -1,5 +1,5 @@
 etc/freeipmi/ipmidetect*.conf
-lib/systemd/system/ipmidetectd.service
+[linux-any] ${deb_systemdsystemunitdir}/ipmidetectd.service
 usr/sbin/ipmi-detect
 usr/sbin/ipmidetect
 usr/sbin/ipmidetectd
